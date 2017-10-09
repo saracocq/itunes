@@ -1,3 +1,4 @@
+
 .image { 
     width: 100%;
 }
@@ -16,6 +17,6 @@ h2
     font-size: 60px;
 }
 
-li { 
-    line-height: 20px;
+p { 
+    line-height: 70pt;
 }
