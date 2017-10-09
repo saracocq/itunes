@@ -1,0 +1,21 @@
+.image { 
+    width: 100%;
+}
+
+body {
+    background-color: #383838
+}
+
+
+h1, h2, h3, li, p  { 
+        color: #EFEFEF
+        }
+
+h2 
+{ 
+    font-size: 60px;
+}
+
+li { 
+    line-height: 20px;
+}
