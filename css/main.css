@@ -1,4 +1,18 @@
 
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import "font-awesome";
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+html {
+    font-size: 18px;
+  }
+
 .image { 
     width: 100%;
 }
@@ -7,16 +21,31 @@ body {
     background-color: #383838
 }
 
+.container
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
-h1, h2, h3, li, p  { 
-        color: #EFEFEF
+h1, h2, h3, p  { 
+        color: #EFEFEF;
+        font-family: muli;
         }
 
-h2 
-{ 
-    font-size: 60px;
+th
+{
+color: #9A512B;
+}
+
+td {
+    color: #EFEFEF;
 }
 
 p { 
     line-height: 70pt;
 }
+
+.tr { 
+   background-color: #9A512B;
+}
+
