@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import "font-awesome";
-
 body {
     background-color: #383838
 }
@@ -19,18 +18,9 @@ body {
     padding: 0px;
 }
 
-
-
-
-
 .image {
     width: 100%;
 }
-
-
-
-
-
 
 h1,
 h2,
@@ -56,7 +46,8 @@ td {
     color: #EFEFEF;
 }
 
-.table td, .table th {
+.table td,
+.table th {
     padding: .75rem;
     vertical-align: top;
     border-top: 0.025px solid #9A512B;
@@ -64,37 +55,60 @@ td {
 
 .navbar {
     text-align: center;
-}
 
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
 
 .tr {
     background-color: #9A512B;
 }
 
+.circle{
+	border-radius: 50%;
+    margin: 0.15em;
+
+	}
+	
+.fa-shopping-cart{
+	background: #EFEFEF;
+	color: #383838;
+  padding:2% 2%;
+
+	}
+
+@media (min-width: 992px) {
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+
 html {
     font-size: 16px;
-}
-
-@media screen and (max-width: 700px) {
-    html {
-        font-size: 14px;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 991px) {
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+
     html {
         font-size: 12px;
+        }
     }
-}
 
-@media screen and (max-width: 300px) {
-    html {
-        font-size: 10px;
-    }
-}
 
-@media screen and (max-width: 300px) {
-    html {
-        font-size: 10px;
-    }
-}
+  
+
+      
+
+
+
+  
