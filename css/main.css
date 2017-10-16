@@ -1,51 +1,100 @@
-
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import "font-awesome";
-
-.container {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-}
-
-html {
-    font-size: 18px;
-  }
-
-.image { 
-    width: 100%;
-}
 
 body {
     background-color: #383838
 }
 
-.container
-{
-    padding-left: 5%;
-    padding-right: 5%;
+.container {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
-h1, h2, h3, p  { 
-        color: #EFEFEF;
-        font-family: muli;
-        }
+.container-fluid {
+    padding: 0px;
+}
 
-th
-{
-color: #9A512B;
+.jumbotron-fluid {
+    padding: 0px;
+}
+
+
+
+
+
+.image {
+    width: 100%;
+}
+
+
+
+
+
+
+h1,
+h2,
+h3,
+p {
+    color: #EFEFEF;
+    font-family: muli;
+}
+
+h2 {
+    font-size: 40pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+th {
+    color: #9A512B;
 }
 
 td {
     color: #EFEFEF;
 }
 
-p { 
-    line-height: 70pt;
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 0.025px solid #9A512B;
 }
 
-.tr { 
-   background-color: #9A512B;
+.navbar {
+    text-align: center;
 }
 
+
+.tr {
+    background-color: #9A512B;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 700px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    html {
+        font-size: 10px;
+    }
+}
