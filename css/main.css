@@ -4,6 +4,7 @@ body {
     background-color: #383838
 }
 
+
 .container {
     width: 100%;
     padding-left: 2%;
@@ -65,18 +66,7 @@ td {
     background-color: #9A512B;
 }
 
-.circle{
-	border-radius: 50%;
-    margin: 0.15em;
 
-	}
-	
-.fa-shopping-cart{
-	background: #EFEFEF;
-	color: #383838;
-  padding:2% 2%;
-
-	}
 
 @media (min-width: 992px) {
     .desktop {
@@ -104,11 +94,3 @@ html {
         }
     }
 
-
-  
-
-      
-
-
-
-  
