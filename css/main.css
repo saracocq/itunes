@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import "font-awesome";
-body {
-    background-color: #383838
-}
 
+body {
+    background-color: #383838;
+}
 
 .container {
     width: 100%;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+.col-12 {
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height: 0px;
 }
 
 .container-fluid {
@@ -17,16 +23,32 @@ body {
 
 .jumbotron-fluid {
     padding: 0px;
+    margin-top: 20px;
 }
+
+
+.mainheader { 
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
 
 .image {
     width: 100%;
 }
 
+
+
 h1,
 h2,
 h3,
-p {
+body {
     color: #EFEFEF;
     font-family: muli;
 }
@@ -61,7 +83,9 @@ td {
     margin-bottom: 20px;
 
 }
-
+.btn { 
+    padding: 40%;
+}
 .tr {
     background-color: #9A512B;
 }
@@ -90,7 +114,12 @@ html {
     }
 
     html {
-        font-size: 12px;
+        font-size: 14px;
         }
     }
 
+input, textarea, select, button {
+        background-color: #9A512B;
+        color: #EFEFEF;
+        border-width: 0px;
+}
